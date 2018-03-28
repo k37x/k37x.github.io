@@ -1,5 +1,7 @@
 body{
-	font-family: "Helvetica Neue", "Helvetica Neue", fantasy;
+	font-family: "sf1", "sf1", fantasy;
+	font-size: 1.0em;
+	text-shadow: 0px 2px 5px black;
 	color: #ffffff;
 	text-align: center;
 }
@@ -49,4 +51,11 @@ hr {
     margin: 1em 0;
     padding: 0;
 		color: #ffffff
+}
+p {
+	font-family: "sf1", "sf1", fantasy;
+	font-size: 1.0em;
+	text-shadow: 0px 2px 5px black;
+	color: #ffffff;
+	text-align: center;
 }
