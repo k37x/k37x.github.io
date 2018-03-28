@@ -1,6 +1,6 @@
 body{
 	font-family: "Helvetica Neue", "Helvetica Neue", fantasy;
-	color: #000000;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -31,7 +31,8 @@ th {
 header {
 	font-family: "sf1", "sf1", fantasy;
 	font-size: 5em;
-	color: #000000;
+	text-shadow: 2px 2px;
+	color: #ffffff;
 	text-align: left;
 }
 @font-face {
