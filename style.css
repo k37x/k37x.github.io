@@ -39,3 +39,14 @@ header {
     font-family: 'sf1'; /*a name to be used later*/
     src: url('fonts/sf1.otf'); /*URL to font*/
 }
+hr {
+
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 5px solid #ffffff;
+		width: 100%
+    margin: 1em 0;
+    padding: 0;
+		color: #ffffff
+}
