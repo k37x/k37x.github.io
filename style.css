@@ -119,7 +119,8 @@ a:hover
   right: 0;
 }
 h2 {
-  width: 98%;
-  margin: 0px auto;
-  text-align: left;
+    float:left;
+}
+img {
+    float:right;
 }
