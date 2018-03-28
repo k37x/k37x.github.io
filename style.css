@@ -118,6 +118,8 @@ a:hover
   opacity: 1;
   right: 0;
 }
-.twitter-timeline-rendered {
-    margin: auto;
+h2 {
+  width: 98%;
+  margin: 0px auto;
+  text-align: left;
 }
