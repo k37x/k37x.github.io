@@ -75,17 +75,22 @@ a:hover
     color:#FFFFFF;
 }
 .button {
+	font-family: "sf1", "sf1", fantasy;
+	color: #FFFFFF;
+	font-size: 1.0em;
+	text-shadow: 0px 2px 5px black;
   display: inline-block;
-  border-radius: 6px;
-  background-color: #ffffff;
+	background-color: none;
+	outline:none;
+	background-color: Transparent;
   border: none;
-  color: #000000;
+	border-radius: 4px;
   text-align: center;
   font-size: 28px;
-  padding: 20px;
-  width: 180px;
   transition: all 0.5s;
   cursor: pointer;
+	padding: 20px;
+  width: 160px;
   margin: 5px;
 }
 
