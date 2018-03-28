@@ -29,8 +29,12 @@ th {
 	background-color: #003366;
 }
 header {
-	font-family: "Helvetica Neue", "Helvetica Neue", fantasy;
+	font-family: "sf1", "sf1", fantasy;
 	font-size: 5em;
 	color: #000000;
 	text-align: left;
+}
+@font-face {
+    font-family: 'sf1'; /*a name to be used later*/
+    src: url('fonts/sf1.otf'); /*URL to font*/
 }
