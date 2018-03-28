@@ -47,7 +47,6 @@ hr {
     height: 5px;
     border: 0;
     border-top: 5px solid #ffffff;
-		width: 100%
     margin: 1em 0;
     padding: 0;
 		color: #ffffff
@@ -60,18 +59,15 @@ p {
 	text-align: center;
 }
 
-a:link
-{
+a:link{
     color:#FFFFFF;
 }
 
-a:visited
-{
+a:visited{
     color:#FFFFFF;
 }
 
-a:hover
-{
+a:hover{
     color:#FFFFFF;
 }
 .button {
