@@ -123,3 +123,9 @@ h2 {
   margin: 0px auto;
   text-align: left;
 }
+a.twitter-timeline {
+  /* Buttonish */
+  display: inline-block;
+  padding: 6px 12px 6px 30px;
+  margin: 10px 0;
+}
