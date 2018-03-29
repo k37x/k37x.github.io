@@ -1,0 +1,9 @@
+Origin: Jon's Repo
+Label: Jon's Repo
+Suite: stable
+Version: 1.0
+Codename: jonsrepo
+Architectures: iphoneos-osarm
+Components: main
+Description: Jon's Repo
+MD5Sum:
