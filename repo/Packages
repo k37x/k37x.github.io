@@ -7,8 +7,8 @@ Description: Adds current iOS 11 icons and other icons for third party apps(Such
 Author: iModFrenzy
 Maintainer: jcdesigns501@gmail.com
 Icon: file///Library/icon/imfs.png
-Filename: debs//com.imodfrenzy/msimodpack.deb
+Filename: debs//com.imodfrenzy.msimodpack.deb
 Depiction: http://https://jciccone426.github.io/repo/depic/imodpack/index.html
-Size: 198kb
+Size: 198
 MD5sum: 6244202a506818dcc9e262e6943ab554
 SHA1:2fa323ac77d3a362935b0c526ca0d005a8a05b1e
