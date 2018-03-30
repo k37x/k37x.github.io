@@ -1,7 +1,7 @@
 Package: com.imodfrenzy.msimodpack
 Name: Milkshake iModPack
 Version: 1.0.3
-Section: themes
+Section: Themes
 Architecture: iphoneos-arm
 Description: Adds current iOS 11 icons and other icons for third party apps(Such as Electra JB). You should use Anemone(as thats what it has been tested with) however other apps may be able to use them so I removed the dependency. Enjoy!
 Author: iModFrenzy
