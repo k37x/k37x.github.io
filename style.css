@@ -8,7 +8,7 @@
 }
 header {
     font-family: "HNL", "HNL", fantasy;
-    font-size: 6em;
+    font-size: 4.5em;
     text-shadow: 0px 2px 5px black;
     color: #ffffff;
     vertical-align: top;
@@ -16,7 +16,7 @@ header {
 
 }
 body {
-    background-color: #232323;
+    background-color: #2b2b2b;
 }
 h1   {
     font-family: "HNM", "HNM", fantasy;
