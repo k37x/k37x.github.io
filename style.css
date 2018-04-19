@@ -52,7 +52,6 @@ hr {
 		color: #ffffff
 }
 
-body {margin: 0;}
 
 ul.topnav {
     font-family: "HNL", "HNL", fantasy;
@@ -110,14 +109,25 @@ h3 {
   text-shadow: 0px 1px 1px black;
   color: #dddddd;
 }
-h4 {
+p {
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  font-family: "HNL", "HNL", fantasy;
+  font-size: 1.5em;
+  text-shadow: 0px 1px 1px black;
+  color: #dddddd;
+  text-align:center;
+}
+hr {
+    box-shadow: inset 0px 0px  5px black;
     display: block;
-    height: 10px;
-    border: 0;
-    border-top: 5px solid #8f0f40;
-    box-shadow: 0px 2px  5px black;
-    margin: 1em 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
     background-color: #8f0f40;
-    padding: 3px;
-		color: #8f0f40
 }
