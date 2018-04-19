@@ -9,8 +9,8 @@
 header {
     font-family: "HNL", "HNL", fantasy;
     font-size: 4.5em;
-    text-shadow: 0px 2px 5px black;
-    color: #ffffff;
+    text-shadow: 0px 1px 1px black;
+    color: #dddddd;
     vertical-align: top;
     text-align: left;
 
@@ -19,20 +19,18 @@ body {
     background-color: #2b2b2b;
 }
 h1   {
-    font-family: "HNM", "HNM", fantasy;
-    font-size: 2em;
-    text-shadow: 0px 2px 5px black;
-    color: #ffffff;
-    vertical-align: top;
-    text-align: left;
-    padding: 0px;
-    margin:0 auto;
+    font-family: "HNL", "HNL", fantasy;
+    font-size: 3.2em;
+    text-shadow: 0px 1px 1px black;
+    color: #dddddd;
+    text-align: center;
+    padding: 20;
 }
 footer {
     font-family: "HNL", "HNL", fantasy;
     font-size: 1em;
     text-shadow: 0px 2px 5px black;
-    color: #ffffff;
+    color: #dddddd;
     text-align: center;
 }
 hr {
@@ -64,7 +62,7 @@ ul.topnav li {float: left;}
 ul.topnav li a {
     font-family: "HNL", "HNL", fantasy;
     display: block;
-    color: white;
+    color: #dddddd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
