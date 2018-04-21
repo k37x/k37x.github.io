@@ -98,8 +98,6 @@ hr {
 
 /*SOCIALMEDIA*/
 div#twitter{
-	position:relative;
-	margin: auto;
 	float: right;
 	font-family: "HNL", "HNL", fantasy;
 	text-align:center;
