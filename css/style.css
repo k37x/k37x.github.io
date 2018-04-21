@@ -13,6 +13,9 @@ body {
 
 div.header{ margin-bottom: 5px; /* or whatever */ }
 
+div#paraima{
+	float:right;
+}
 div#text { 
 	font-family: "HNL", "HNL", fantasy;
 	text-align:center;
