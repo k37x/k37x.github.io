@@ -59,7 +59,7 @@ ul.topnav li a {
 	
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #c70039;}
+ul.topnav li a.active {background-color: #c70039;box-shadow: inset 0px 0px  2px black;}
 
 ul.topnav li.right {float: right;}
 
@@ -69,6 +69,7 @@ ul.topnav li.right {float: right;}
 	div#logo{float:none;}
 	div#logo{text-align:center;}
 	div#social{float:none;}
+	div#twitter{float:none;}
 }
 
 /* This is where my headers/hr reside*/
@@ -93,4 +94,13 @@ hr {
     margin-right: auto;
     height: 7px;
     background-color: #c70039;
+}
+
+/*SOCIALMEDIA*/
+div#twitter{
+	float: right;
+	font-family: "HNL", "HNL", fantasy;
+	text-align:center;
+	font-size: 1em;
+	
 }
