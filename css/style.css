@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 @font-face {
-    font-family: 'HNL'; /*a name to be used later*/
+    font-family: 'HNL' ;/*a name to be used later*/
     src: url('../font/HNL.ttf'); /*URL to font*/
 }
 
@@ -18,7 +18,7 @@ div#paraima{
 	float:right;
 }
 div.footer { 
-	font-family: "HNL", "HNL", fantasy;
+	font-family: "HNL", Helvetica, fantasy;
 	text-align:center;
 	float:none;
 	font-size: 1em;
@@ -26,7 +26,7 @@ div.footer {
 	color: #dddddd;
 	}
 div#text { 
-	font-family: "HNL", "HNL", fantasy;
+	font-family: "HNL", Helvetica, fantasy;
 	text-align:left;
 	float:left;
 	font-size: 1.5em;
@@ -36,7 +36,7 @@ div#text {
 	}
 div#social { 
 	margin: auto;
-	font-family: "HNL", "HNL", fantasy;
+	font-family: "HNL", Helvetica, fantasy;;
 	text-align:center;
 	float:right;
 	font-size: 1em;
@@ -46,7 +46,7 @@ div#social {
 
 div#logo { 
 	position:relative;
-	font-family: "HNL", "HNL", fantasy;
+	font-family: "HNL", Helvetica, fantasy;
 	text-align:left;
 	float:left;
 	font-size: 3em;
@@ -57,7 +57,7 @@ div#logo {
 	
 
 ul.topnav {
-    font-family: "HNL", "HNL", fantasy;
+    font-family: "HNL", Helvetica, fantasy;
     list-style-type: none;
     margin: 0;
 	width: 100%;
@@ -70,7 +70,7 @@ ul.topnav {
 ul.topnav li {float: left;}
 
 ul.topnav li a {
-    font-family: "HNL", "HNL", fantasy;
+    font-family: "HNL", Helvetica, fantasy;
     display: block;
     color: #dddddd;
     text-align: center;
