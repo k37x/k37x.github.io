@@ -34,6 +34,15 @@ div#text {
 	color: #dddddd;
 	
 	}
+div#text1 { 
+	font-family: "HNL", Helvetica, fantasy;
+	text-align:center;
+	float:none;
+	font-size: 1.5em;
+    text-shadow: 0px 1px 1px black;
+	color: #dddddd;
+	
+	}
 div#social { 
 	margin: auto;
 	font-family: "HNL", Helvetica, fantasy;;
@@ -80,7 +89,7 @@ ul.topnav li a {
 	
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #c70039;box-shadow: inset 0px 0px  2px black;}
+ul.topnav li a.active {background-color: #c31240;}
 
 ul.topnav li.right {float: right;}
 
@@ -106,7 +115,6 @@ h1 {
 }
 
 hr {
-    box-shadow: inset 0px 0px  5px black;
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -115,5 +123,19 @@ hr {
     margin-left: auto;
     margin-right: auto;
     height: 7px;
-    background-color: #c70039;
+    background-color: #c31240;
+}
+a:link {
+    color: #c31240;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #c31240;
+}
+
+/* mouse over link */
+a:hover {
+    color: #c31240;
 }
