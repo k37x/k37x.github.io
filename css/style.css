@@ -74,6 +74,21 @@ div#social {
 	padding: 20px 20px;
 	
 	}
+	
+div#block1 {
+	margin: auto;
+	padding: 20px 20px;
+}
+	
+div#social1 { 
+	margin: auto;
+	font-family: "HNL", Helvetica, fantasy;;
+	text-align:center;
+	float:right;
+	font-size: 1em;
+	padding: 20px 20px;
+	
+	}
 div#sidepanel {
 	float:right;
 	padding: 20px 20px;
