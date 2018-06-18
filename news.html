@@ -32,6 +32,13 @@
       });
     }
     google.setOnLoadCallback(initialize);
+	// Format date:
+function formatDate(myElement) {
+    var date = new Date(myElement);
+    var months = Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+    var string = months[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear() + " " + addZero(date.getHours()) + ":" + addZero(date.getMinutes());
+    return string;
+}
 
     </script>
 </head>
