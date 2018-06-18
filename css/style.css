@@ -37,7 +37,10 @@ div#paraima{
 }
 
 div.content {
+	position:relative;
+	text-align: center;
 	background: #ffffff;
+	padding: 10px 10px;
 	}
 
 
@@ -178,3 +181,10 @@ a:hover {
     color: #313131;
 }
 /* END FOR HYPERLINKS*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+	padding: 4px 2px;
+}
