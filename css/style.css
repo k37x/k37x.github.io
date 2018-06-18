@@ -15,7 +15,14 @@
     font-family: 'SFPROLIGHT' ;/*a name to be used later*/
     src: url('../font/sfprolight.otf'); /*URL to font*/
 }
-
+@font-face {
+    font-family: 'SFPROSEMI' ;/*a name to be used later*/
+    src: url('../font/sfprosemi.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'SFPROMED' ;/*a name to be used later*/
+    src: url('../font/sfpromed.otf'); /*URL to font*/
+}
 div { overflow: hidden; }
 
 html, body {
@@ -136,7 +143,7 @@ ul.topnav li.right {float: right;}
 /* HEADERS/ HR */
 h1 { 
 	position:relative;
-	font-family: "SFPRODISLIGHT",Helvetica, Arial;
+	font-family: "SFPROMED",Helvetica, Arial;
 	text-align:center;
 	font-size: 3em;
 	color: #111111;
