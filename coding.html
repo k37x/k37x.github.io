@@ -10,30 +10,7 @@
   <meta property="og:image" content="art/previewimg.png" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jon Ciccone News</title>
-    <script type="text/javascript" src="https://rss2json.com/gfapi.js"></script>
-
-    <script type="text/javascript">
-
-    google.load("feeds", "1");
-
-    function initialize() {
-      var feed = new google.feeds.Feed("http://feeds.macrumors.com/MacRumors-Front");
-      feed.load(function(result) {
-        if (!result.error) {
-          var container = document.getElementById("feed");
-          for (var i = 0; i < result.feed.entries.length; i++) {
-            var entry = result.feed.entries[i];
-            var div = document.createElement("div");
-            div.appendChild(document.createTextNode(entry.title));
-            container.appendChild(div);
-          }
-        }
-      });
-    }
-    google.setOnLoadCallback(initialize);
-
-    </script>
+  <title>Jon Ciccone Coding</title>
 </head>
 <body>
 <div class="container">
@@ -55,8 +32,8 @@
   <div class="menubar">
   	  <ul class="topnav">
     	<li><a href="index.html">Home</a></li>
-        <li><a class="active" href="news.html">News</a></li>
-        <li><a href="coding.html">Coding</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a class="active" href="coding.html">Coding</a></li>
         <li><a href="graphics.html">Graphics</a></li>
     	<li><a href="ios.html">iOS</a></li>
     	<li><a href="contact.html">Contact</a></li>
@@ -65,11 +42,9 @@
   </div>
  </div>
   <div class="content">
-  	<h1> News </h1>  
+  	<h1> Coding </h1>  
     <hr />
-    <h5><div id="feed"></div></h5>
-    <a href="https://www.macrumors.com"><img style="vertical-align:middle" src="smedia/macrumors.png" alt="News provided by MacRumors" width="250" height="71" /></a>
-</div>
+    </div>
 <div class="footer">
     <h6>Created by Jon Ciccone, 2018.</h6>
     <!-- end .footer --></div>
