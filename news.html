@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="apple-touch-icon" href="art/iconiphone.png">
+  <meta name="apple-mobile-web-app-title" content="Jon Ciccone">
+  <meta property="og:title" content="Jon Ciccone" />
+  <meta property="og:image" content="art/previewimg.png" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jon Ciccone Home</title>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+	type="text/javascript"></script>
+
+	<style type="text/css">
+	@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+	#feedControl {
+	margin-top : 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width : 440px;
+	font-size: 12px;
+	color: #9CADD0;
+	}
+	</style>
+	<script type="text/javascript">
+	function load() {
+	var feed ="http://feeds.bbci.co.uk/news/world/rss.xml";
+	new GFdynamicFeedControl(feed, "feedControl");
+	
+	}
+	google.load("feeds", "1");
+	google.setOnLoadCallback(load);
+  </script>
+</head>
+<body>
+<div class="container">
+<div class ="headeroverload">
+  <div class="header">
+    <div id="logo">
+      <header><a href="http://jonciccone.com"><img style="vertical-align:middle" src="art/jclogo.png" alt="Jon Ciccone Logo" width="288" height="81.5" /></a></header>
+    </div>
+    <div id="social">
+      <a href="https://www.instagram.com/jon.cicc/"> <img style="vertical-align:middle" src="smedia/instagram_logo.png" alt="Jon Ciccone Logo" width="60" height="60"></a>
+      <a href="https://twitter.com/jon_ciccone"> <img style="vertical-align:middle" src="smedia/twitter_logo.png" alt="Jon Ciccone Logo" width="60" height="60" /></a>
+      <a href="https://github.com/jciccone426/jciccone426.github.io"><img style="vertical-align:middle" src="smedia/github_logo.png" alt="Jon Ciccone Logo" width="60" height="60" /></a>
+      
+    </div>
+    
+    
+  </div>
+  
+  <div class="menubar">
+  	  <ul class="topnav">
+    	<li><a class="active" href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="coding.html">Coding</a></li>
+        <li><a href="graphics.html">Graphics</a></li>
+    	<li><a href="ios.html">iOS</a></li>
+    	<li><a href="contact.html">Contact</a></li>
+    	<li class="right"><a href="about.html">About</a></li>
+ 	 </ul>
+  </div>
+ </div>
+  <div class="content">
+  	<h1> News </h1>  
+    <hr />
+    <div id="body">
+		<div id="feedControl">Loading...</div>
+	</div>
+</div>
+<div class="footer">
+    <h6>Created by Jon Ciccone, 2018.</h6>
+    <!-- end .footer --></div>
+</div>
+</body>
+</html>
