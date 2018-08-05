@@ -2,7 +2,7 @@ User-Agent: *
 Disallow:
 Disallow: /contact.html
 Disallow: /news.html
-Allow: /home.html
+Allow: /index.html
 Allow: /ios.html
 Disallow: /about.html
 Disallow: /coding.html
