@@ -1,2 +1,9 @@
-User-agent: Googlebot
-Disallow: /Contact/
+User-Agent: *
+Disallow:
+Disallow: /contact.html
+Disallow: /news.html
+Allow: /home.html
+Allow: /ios.html
+Disallow: /about.html
+Disallow: /coding.html
+Allow: /graphics.html
