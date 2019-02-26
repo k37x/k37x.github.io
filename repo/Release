@@ -1,8 +1,8 @@
-Origin: Jon Ciccone Repo
-Label: Jon Ciccone Repo
+Origin: Jon Ciccone's Repo
+Label: Jon Ciccone's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Welcome to my beautiful repo, home of anything I'd like to post
+Description: Welcome to my repo, home to my creations or others I'd like to host.
