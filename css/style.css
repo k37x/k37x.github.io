@@ -202,3 +202,10 @@ img {
     width: auto\9; /* ie8 */
 	padding: 4px 2px;
 }
+#changeText {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.hide {
+    opacity: 0 !important;
+}
