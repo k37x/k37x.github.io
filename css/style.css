@@ -4,12 +4,12 @@
 /* IMPORTANT DO NOT TOUCH */
 
 @font-face {
-    font-family: 'interlight' ;/*a name to be used later*/
-    src: url('../font/interlight.woff'); /*URL to font*/
+    font-family: 'interlight' ;
+    src: url('../font/interlight.woff');
 }
 @font-face {
-    font-family: 'intermedium' ;/*a name to be used later*/
-    src: url('../font/intermedium.woff'); /*URL to font*/
+    font-family: 'intermedium' ;
+    src: url('../font/intermedium.woff');
 }
 div { overflow: hidden; }
 
