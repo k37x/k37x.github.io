@@ -2,25 +2,13 @@
 /* CSS Document */
 
 /* IMPORTANT DO NOT TOUCH */
-@font-face {
-    font-family: 'HNL' ;/*a name to be used later*/
-    src: url('../font/HNL.ttf'); /*URL to font*/
-}
-@font-face {
-    font-family: 'SFPRODISLIGHT' ;/*a name to be used later*/
-    src: url('../font/interlight.woff'); /*URL to font*/
-}
 
 @font-face {
-    font-family: 'SFPROLIGHT' ;/*a name to be used later*/
+    font-family: 'interlight' ;/*a name to be used later*/
     src: url('../font/interlight.woff'); /*URL to font*/
 }
 @font-face {
-    font-family: 'SFPROSEMI' ;/*a name to be used later*/
-    src: url('../font/intersemi.woff'); /*URL to font*/
-}
-@font-face {
-    font-family: 'SFPROMED' ;/*a name to be used later*/
+    font-family: 'intermedium' ;/*a name to be used later*/
     src: url('../font/intermedium.woff'); /*URL to font*/
 }
 div { overflow: hidden; }
@@ -59,7 +47,6 @@ div.footer {
 	background: #f2f2f2;
 	}
 div#text { 
-	font-family: "HNL", Helvetica, Arial;
 	text-align:left;
 	float:left;
 	font-size: 1.3em;
@@ -68,7 +55,6 @@ div#text {
 	
 	}
 div#text1 { 
-	font-family: "HNL", Helvetica, Arial;
 	text-align:center;
 	float:none;
 	font-size: 1.5em;
@@ -78,7 +64,6 @@ div#text1 {
 	}
 div#social { 
 	margin: auto;
-	font-family: "HNL", Helvetica, Arial;
 	text-align:center;
 	float:right;
 	font-size: 1em;
@@ -92,7 +77,7 @@ div#sidepanel {
 
 div#logo { 
 	position:relative;
-	font-family:'SFPROLIGHT',Helvetica, Arial;
+	font-family:'interlight',Helvetica, Arial;
 	text-align:left;
 	float:left;
 	font-size: 3em;
@@ -103,7 +88,7 @@ div#logo {
 	
 
 ul.topnav {
-    font-family: 'SFPROLIGHT',Helvetica, Arial;
+    font-family: 'interlight',Helvetica, Arial;
     list-style-type: none;
     margin: 0;
 	width: 100%;
@@ -116,7 +101,7 @@ ul.topnav {
 ul.topnav li {float: left;}
 
 ul.topnav li a {
-    font-family: 'SFPROLIGHT',Helvetica, Arial;
+    font-family: 'interlight',Helvetica, Arial;
     display: block;
     color: #ffffff;
     text-align: center;
@@ -143,7 +128,7 @@ ul.topnav li.right {float: right;}
 /* HEADERS/ HR */
 h1 { 
 	position:relative;
-	font-family: "SFPROMED",Helvetica, Arial;
+	font-family: "intermedium",Helvetica, Arial;
 	text-align:center;
 	font-size: 3em;
 	color: #111111;
@@ -151,7 +136,7 @@ h1 {
 }
 h2 { 
 	position:relative;
-	font-family: "SFPROLIGHT",Helvetica, Arial;
+	font-family: "interlight",Helvetica, Arial;
 	text-align:center;
 	font-size: 2em;
 	color: #111111;
@@ -159,7 +144,7 @@ h2 {
 }
 h5 { 
 	position:relative;
-	font-family: "SFPROLIGHT",Helvetica, Arial;
+	font-family: "interlight",Helvetica, Arial;
 	text-align:center;
 	font-size: 1.4em;
 	color: #111111;
@@ -167,7 +152,7 @@ h5 {
 }
 h6 { 
 	position:relative;
-	font-family: 'SFPROLIGHT',Helvetica, Arial;
+	font-family: 'interlight',Helvetica, Arial;
 	text-align:center;
 	font-size: 1em;
 	color: #7c7c7c;
